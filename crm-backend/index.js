@@ -40,7 +40,7 @@ function drainJson(req) {
 }
 
 /**
- * Проверяет входные данные и создаёт из них корректный объект клиента
+ * Проверяет входные данные и создаёт из них корректный объект
  * @param {Object} data - Объект с входными данными
  * @throws {ApiError} Некорректные данные в аргументе (statusCode 422)
  * @returns {{ name: string, surname: string, lastName: string, contacts: object[] }} Объект клиента
